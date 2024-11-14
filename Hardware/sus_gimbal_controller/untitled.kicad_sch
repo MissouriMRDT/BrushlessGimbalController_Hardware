@@ -11505,6 +11505,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MRDT_Devices:DRV8239")
 		(lib_id "MRDT_Devices:DRV8239")
 		(at 377.19 121.92 0)
 		(unit 1)
@@ -11532,7 +11533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QFN"
 			(at 355.6 160.02 0)
 			(effects
 				(font
@@ -11541,7 +11542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8329.pdf?ts=1731490781953&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FDRV8329%253FkeyMatch%253DDRV8329A%2526tisearch%253Duniversal_search%2526usecase%253Dpartmatches"
 			(at 355.6 160.02 0)
 			(effects
 				(font
@@ -19407,7 +19408,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7b4b117-4ecb-44d8-b2e3-01d96f7d2060")
+			(uuid "d7b4b117-4ecb-44d8-b2e3-01d96f7d2061")
 		)
 		(instances
 			(project ""
