@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sus_gimbal_controller.kicad_pro",
+    "filename": "BrushlessGimbalController_Hardware.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,12 +384,8 @@
   },
   "sheets": [
     [
-      "86ab4737-a8a4-4a5e-a3fa-07a67c279334",
+      "86d19b08-3b03-481a-886b-9d63ccd258bc",
       "Root"
-    ],
-    [
-      "82c30fdd-0399-4f88-9069-89acd017385b",
-      "v2"
     ]
   ],
   "text_variables": {}
