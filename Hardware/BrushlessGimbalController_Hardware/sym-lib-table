@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8329")(type "KiCad")(uri "${BRUSHLESS_GIMBAL_BOARD}/Lib/Symbols/DRV8329.kicad_sym")(options "")(descr ""))
+)
