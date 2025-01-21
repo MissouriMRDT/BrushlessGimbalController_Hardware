@@ -14878,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Connfly_DS1128-09-S8xx-S_Horizontal"
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 226.06 32.385 90)
 			(effects
 				(font
