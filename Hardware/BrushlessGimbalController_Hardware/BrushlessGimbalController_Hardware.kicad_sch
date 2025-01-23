@@ -5600,6 +5600,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers hide)
 			(pin_names
@@ -6275,12 +6357,6 @@
 		(uuid "15cbcaff-a374-4f54-b8be-0a6d9bcd56e9")
 	)
 	(junction
-		(at 444.5 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "177f6c9f-1a37-40c8-b4a1-c9fdb4b4ecc0")
-	)
-	(junction
 		(at 280.67 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6323,6 +6399,12 @@
 		(uuid "413514ca-ff88-45aa-89e6-12b29e9f1248")
 	)
 	(junction
+		(at 279.4 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "415c1a11-425b-4ea8-8dc8-a0ffd7a9c16f")
+	)
+	(junction
 		(at 227.33 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6345,18 +6427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a8a7a55-22a5-4858-89d9-97473ec69cc8")
-	)
-	(junction
-		(at 279.4 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b051dc4-4def-4a5b-9b76-1029cb84d6db")
-	)
-	(junction
-		(at 66.04 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4be93bb9-6d49-430e-80fb-edf40db01bd8")
 	)
 	(junction
 		(at 459.74 195.58)
@@ -6425,12 +6495,6 @@
 		(uuid "7c247fa6-8ce7-442b-a0c2-410273e0901d")
 	)
 	(junction
-		(at 222.25 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c345ede-c15b-4c1f-8797-2469948c7270")
-	)
-	(junction
 		(at 546.1 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6453,12 +6517,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85bd0be7-1654-46da-9a73-c0c70219571c")
-	)
-	(junction
-		(at 66.04 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86eed17a-1921-4166-9eab-d81d083e0b99")
 	)
 	(junction
 		(at 462.28 41.91)
@@ -6509,22 +6567,10 @@
 		(uuid "a2e57ae8-ca96-4a21-9df7-2b3eba9cc053")
 	)
 	(junction
-		(at 127 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3cb8422-fbfa-4607-8f52-dbe905858dcf")
-	)
-	(junction
 		(at 469.9 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d2f6ed-dd0b-470d-b8ac-2d8249b8107d")
-	)
-	(junction
-		(at 69.85 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a883508e-8dd4-4d91-b7ba-d3b79d077431")
 	)
 	(junction
 		(at 452.12 78.74)
@@ -6563,12 +6609,6 @@
 		(uuid "b6b35b4e-47e7-4293-bf77-235a6ff9dda5")
 	)
 	(junction
-		(at 67.31 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b892aa1a-deb8-45e8-84d3-3faaaa0a7459")
-	)
-	(junction
 		(at 215.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6587,18 +6627,6 @@
 		(uuid "bd5053be-daea-42ff-a672-ed2204062b69")
 	)
 	(junction
-		(at 294.64 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0fba39f-9785-4fb3-abee-a334bd682cde")
-	)
-	(junction
-		(at 222.25 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c10a57be-f7e2-4c93-ad85-ac94616e45f2")
-	)
-	(junction
 		(at 205.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6615,6 +6643,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc01d10d-dbda-4b59-99a5-8373687d9f8b")
+	)
+	(junction
+		(at 294.64 285.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36484c9-0f18-43cf-9539-6856f113f8d1")
 	)
 	(junction
 		(at 373.38 44.45)
@@ -6663,12 +6697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1e7571-a5ee-4f29-ae5e-98044a35de06")
-	)
-	(junction
-		(at 255.27 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e00de3ce-a9b6-4538-87ab-6750e0f6dbc6")
 	)
 	(junction
 		(at 534.67 78.74)
@@ -6874,6 +6902,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 283.21) (xy 294.64 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f292fb-eddd-4f7c-9d60-29435c83d75f")
+	)
+	(wire
+		(pts
 			(xy 501.65 250.19) (xy 537.21 250.19)
 		)
 		(stroke
@@ -6931,16 +6969,6 @@
 			(type default)
 		)
 		(uuid "036449f8-e043-48a5-8056-5da6ac528cc2")
-	)
-	(wire
-		(pts
-			(xy 279.4 283.21) (xy 279.4 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0394f8a8-53b6-4f7c-98dc-b31d71b96388")
 	)
 	(wire
 		(pts
@@ -7164,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 269.24) (xy 298.45 283.21)
+			(xy 298.45 269.24) (xy 298.45 285.75)
 		)
 		(stroke
 			(width 0)
@@ -7264,16 +7292,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 283.21) (xy 294.64 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e4a67c-9c08-4f24-b435-c134495c1953")
-	)
-	(wire
-		(pts
 			(xy 438.15 209.55) (xy 444.5 209.55)
 		)
 		(stroke
@@ -7314,7 +7332,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 91.44) (xy 80.01 91.44)
+			(xy 63.5 91.44) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7424,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 80.01 104.14)
+			(xy 63.5 104.14) (xy 80.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7914,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 127 104.14)
+			(xy 120.65 104.14) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7944,7 +7962,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 80.01 101.6)
+			(xy 63.5 101.6) (xy 80.01 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8131,6 +8149,16 @@
 			(type default)
 		)
 		(uuid "4528b005-86d7-45f8-8cee-70447b62cb0d")
+	)
+	(wire
+		(pts
+			(xy 294.64 285.75) (xy 294.64 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455dcba1-2e5c-4e21-9a97-54a612520fe9")
 	)
 	(wire
 		(pts
@@ -8424,7 +8452,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 283.21) (xy 283.21 269.24)
+			(xy 283.21 284.48) (xy 283.21 269.24)
 		)
 		(stroke
 			(width 0)
@@ -8574,7 +8602,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 283.21) (xy 283.21 283.21)
+			(xy 279.4 284.48) (xy 283.21 284.48)
 		)
 		(stroke
 			(width 0)
@@ -9064,16 +9092,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 133.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79eeb962-e0c4-4877-953a-080e0cb7676a")
-	)
-	(wire
-		(pts
 			(xy 90.17 269.24) (xy 90.17 267.97)
 		)
 		(stroke
@@ -9434,16 +9452,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce3a144-f8a5-4d0a-81a4-42842b97fd5b")
-	)
-	(wire
-		(pts
 			(xy 459.74 195.58) (xy 459.74 196.85)
 		)
 		(stroke
@@ -9501,6 +9509,16 @@
 			(type default)
 		)
 		(uuid "900778c5-518b-48cb-bdf2-145c0ce64118")
+	)
+	(wire
+		(pts
+			(xy 279.4 284.48) (xy 279.4 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902ee29f-4381-47de-a397-a8d241614a8b")
 	)
 	(wire
 		(pts
@@ -9571,6 +9589,16 @@
 			(type default)
 		)
 		(uuid "932b5873-d27e-4868-90e2-1579975304fb")
+	)
+	(wire
+		(pts
+			(xy 279.4 284.48) (xy 279.4 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944d4980-f962-4d34-856b-a8dcb43a23ab")
 	)
 	(wire
 		(pts
@@ -10712,16 +10740,6 @@
 		)
 		(uuid "e8c90535-124a-4c71-9bdd-24f1a553552e")
 	)
-	(wire
-		(pts
-			(xy 63.5 91.44) (xy 67.31 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e969555d-09e2-453a-9b06-160eaef3ed58")
-	)
 	(polyline
 		(pts
 			(xy 177.8 62.23) (xy 260.35 62.23)
@@ -10844,16 +10862,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0fc6fc6-c381-49f2-b848-24a6d4ec9ae6")
-	)
-	(wire
-		(pts
 			(xy 220.98 238.76) (xy 227.33 238.76)
 		)
 		(stroke
@@ -10934,7 +10942,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 283.21) (xy 294.64 283.21)
+			(xy 298.45 285.75) (xy 294.64 285.75)
 		)
 		(stroke
 			(width 0)
@@ -11402,7 +11410,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_3"
+	(global_label "SHC_3"
 		(shape output)
 		(at 483.87 283.21 270)
 		(fields_autoplaced yes)
@@ -11414,7 +11422,7 @@
 		)
 		(uuid "0a439fee-7c91-4f46-aa6c-9d1fcbac40fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 293.0894 90)
+			(at 483.87 292.1823 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11586,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_2"
+	(global_label "SHA_2"
 		(shape output)
 		(at 241.3 254 180)
 		(fields_autoplaced yes)
@@ -11590,7 +11598,7 @@
 		)
 		(uuid "1c15faef-adf7-4d15-9cdb-6b6395707692")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.602 254 0)
+			(at 232.5091 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11696,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_1"
+	(global_label "SHA_1"
 		(shape input)
 		(at 345.44 44.45 180)
 		(fields_autoplaced yes)
@@ -11700,7 +11708,7 @@
 		)
 		(uuid "270a5310-1f4d-4fc5-8601-baad51d7df9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.742 44.45 0)
+			(at 336.6491 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +11850,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_3"
+	(global_label "SHC_3"
 		(shape input)
 		(at 515.62 115.57 180)
 		(fields_autoplaced yes)
@@ -11854,7 +11862,7 @@
 		)
 		(uuid "302c238c-2962-4957-b6ad-ee4119ff513b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.7406 115.57 0)
+			(at 506.6477 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11960,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_2"
+	(global_label "SHB_2"
 		(shape output)
 		(at 279.4 288.29 270)
 		(fields_autoplaced yes)
@@ -11964,7 +11972,7 @@
 		)
 		(uuid "3696703e-a5b0-415b-b57b-ef67dd0a6384")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 298.1694 90)
+			(at 279.4 297.2623 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +12004,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_3"
+	(global_label "SHB_3"
 		(shape output)
 		(at 468.63 283.21 270)
 		(fields_autoplaced yes)
@@ -12008,7 +12016,7 @@
 		)
 		(uuid "38196355-3136-4049-9627-84d35b909c66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 468.63 293.0894 90)
+			(at 468.63 292.1823 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,7 +12048,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_2"
+	(global_label "SHA_2"
 		(shape input)
 		(at 435.61 41.91 180)
 		(fields_autoplaced yes)
@@ -12052,7 +12060,7 @@
 		)
 		(uuid "40049a1c-97ae-472c-9d8a-f60fecd57358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 425.912 41.91 0)
+			(at 426.8191 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12092,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_3"
+	(global_label "SHA_3"
 		(shape input)
 		(at 515.62 41.91 180)
 		(fields_autoplaced yes)
@@ -12096,7 +12104,7 @@
 		)
 		(uuid "4691af34-3137-4d6d-93ae-6286e86687cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.922 41.91 0)
+			(at 506.8291 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +12400,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_1"
+	(global_label "SHA_1"
 		(shape output)
 		(at 57.15 252.73 180)
 		(fields_autoplaced yes)
@@ -12404,7 +12412,7 @@
 		)
 		(uuid "738d04e2-35ec-4466-89c6-6c3ee0f99aef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.452 252.73 0)
+			(at 48.3591 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,7 +12598,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_3"
+	(global_label "SHB_3"
 		(shape input)
 		(at 516.89 78.74 180)
 		(fields_autoplaced yes)
@@ -12602,7 +12610,7 @@
 		)
 		(uuid "82f1da46-3c36-4951-b885-3a851dfd884c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 507.0106 78.74 0)
+			(at 507.9177 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +12620,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_2"
+	(global_label "SHC_2"
 		(shape output)
 		(at 294.64 288.29 270)
 		(fields_autoplaced yes)
@@ -12624,7 +12632,7 @@
 		)
 		(uuid "850eedfc-49db-4e4e-b068-047793e66496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 298.1694 90)
+			(at 294.64 297.2623 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13302,7 @@
 			)
 		)
 	)
-	(global_label "BSTA_3"
+	(global_label "SHA_3"
 		(shape output)
 		(at 430.53 248.92 180)
 		(fields_autoplaced yes)
@@ -13306,7 +13314,7 @@
 		)
 		(uuid "caf1e6c4-0995-455b-92d5-bd2b132853ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.832 248.92 0)
+			(at 421.7391 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13324,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_2"
+	(global_label "SHC_2"
 		(shape input)
 		(at 435.61 115.57 180)
 		(fields_autoplaced yes)
@@ -13328,7 +13336,7 @@
 		)
 		(uuid "ce48e370-3c89-4781-9900-16edbd52516b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 425.7306 115.57 0)
+			(at 426.6377 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13390,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_1"
+	(global_label "SHC_1"
 		(shape output)
 		(at 109.22 287.02 270)
 		(fields_autoplaced yes)
@@ -13394,7 +13402,7 @@
 		)
 		(uuid "d4aa4021-caef-4a86-bd13-ca015797776f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 296.8994 90)
+			(at 109.22 295.9923 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +13654,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_1"
+	(global_label "SHB_1"
 		(shape input)
 		(at 347.98 81.28 180)
 		(fields_autoplaced yes)
@@ -13658,7 +13666,7 @@
 		)
 		(uuid "f127272f-5b84-40d2-8b16-ee1ca14c8b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.1006 81.28 0)
+			(at 339.0077 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,7 +13698,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_1"
+	(global_label "SHB_1"
 		(shape output)
 		(at 93.98 287.02 270)
 		(fields_autoplaced yes)
@@ -13702,7 +13710,7 @@
 		)
 		(uuid "f622459b-4091-4228-a53d-68f92dfbf000")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 296.8994 90)
+			(at 93.98 295.9923 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13742,7 @@
 			)
 		)
 	)
-	(global_label "BSTB_2"
+	(global_label "SHB_2"
 		(shape input)
 		(at 434.34 78.74 180)
 		(fields_autoplaced yes)
@@ -13746,7 +13754,7 @@
 		)
 		(uuid "f6a175c5-e680-4eb2-82da-75ac1198375f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.4606 78.74 0)
+			(at 425.3677 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13844,7 +13852,7 @@
 			)
 		)
 	)
-	(global_label "BSTC_1"
+	(global_label "SHC_1"
 		(shape input)
 		(at 349.25 118.11 180)
 		(fields_autoplaced yes)
@@ -13856,7 +13864,7 @@
 		)
 		(uuid "fb467d0e-a370-456e-b57e-4dd1434a16b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.3706 118.11 0)
+			(at 340.2777 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,140 +13937,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 444.5 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00989ec4-5bb3-4760-9c6d-578d27f0fdd8")
-		(property "Reference" "TP16"
-			(at 447.04 204.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 447.04 207.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 449.58 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 449.58 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 444.5 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bdf82fd-f461-4643-9c8b-f76ff3b02ae4")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 537.21 250.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01015ec6-6de9-469c-9b0b-f96f20f84243")
-		(property "Reference" "TP21"
-			(at 542.29 248.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 542.29 251.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 537.21 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 537.21 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 537.21 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53f729a8-33bf-4b64-9404-9aea5eafd062")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP21")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -14167,7 +14041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+		(property "Footprint" "DRV8329:REE0036A-IPC_A"
 			(at 455.93 275.59 0)
 			(effects
 				(font
@@ -14312,73 +14186,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03835981-a523-415b-b6c2-ca01699e0293")
-		(property "Reference" "TP6"
-			(at 129.54 106.1719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 129.54 108.7119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0c356d5-84d8-40f2-8ea8-be65352113e4")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 294.64 29.21 0)
 		(unit 1)
@@ -14443,73 +14250,6 @@
 			(project ""
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 67.31 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0736be46-e3b9-45a6-8e74-2b40b0eedfd3")
-		(property "Reference" "TP3"
-			(at 69.85 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.85 89.4079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 72.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5db564c-5d0a-41fe-9599-ac7f5b46f8cf")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -15737,72 +15477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 69.85 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fc4c672-ef8d-4d40-b251-1d097a4a2076")
-		(property "Reference" "TP4"
-			(at 71.374 205.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 71.374 208.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 74.93 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 69.85 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18050196-d8ed-440d-a774-1935c6a0d98f")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 468.63 274.32 0)
 		(unit 1)
@@ -15901,7 +15575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+		(property "Footprint" "DRV8329:REE0036A-IPC_A"
 			(at 266.7 280.67 0)
 			(effects
 				(font
@@ -16250,6 +15924,70 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2859f76c-57f7-4b8e-880c-324450b5dfde")
+		(property "Reference" "H2"
+			(at 33.02 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 33.02 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16694,6 +16432,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 138.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313a3bfb-6bf5-4147-bdd3-1158c159b576")
+		(property "Reference" "H3"
+			(at 53.34 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 242.57 0)
 		(unit 1)
@@ -16720,7 +16522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 61.9252 246.38 0)
 			(effects
 				(font
@@ -16729,7 +16531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/25ZLH470MEFC10X12-5/3563614"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A474KA8NNNC/3887553"
 			(at 60.96 242.57 0)
 			(effects
 				(font
@@ -17534,73 +17336,6 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 222.25 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4065c3ef-a775-4155-9e94-25a8fe11d970")
-		(property "Reference" "TP9"
-			(at 227.33 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 227.33 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 222.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 222.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "263eedee-14d9-42bb-a16e-6af24e9f22c2")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -19007,73 +18742,6 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 66.04 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b13285d-4429-4f8f-8834-000d7c7894e2")
-		(property "Reference" "TP1"
-			(at 68.58 97.0279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 68.58 99.5679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d59920e-9169-493c-b8c8-109985e8cf17")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -21411,73 +21079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cc65707-e8e6-49d1-8c71-35effc59d2ea")
-		(property "Reference" "TP10"
-			(at 257.81 210.0579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 257.81 212.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 260.35 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90aa9d39-5855-4e30-9c6a-8dd595eab4bd")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 220.98 242.57 180)
 		(unit 1)
@@ -22835,7 +22436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470 uF"
+		(property "Value" "470 nF"
 			(at 445.008 237.744 0)
 			(effects
 				(font
@@ -22844,7 +22445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 436.5752 242.57 0)
 			(effects
 				(font
@@ -22853,7 +22454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/25ZLH470MEFC10X12-5/3563614"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A474KA8NNNC/3887553"
 			(at 435.61 238.76 0)
 			(effects
 				(font
@@ -23018,6 +22619,70 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ead0082-a131-4750-9522-3bf7fc0975a3")
+		(property "Reference" "H4"
+			(at 54.61 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -26140,7 +25805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+		(property "Footprint" "DRV8329:REE0036A-IPC_A"
 			(at 81.28 279.4 0)
 			(effects
 				(font
@@ -26814,73 +26479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 66.04 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e356711d-180b-476f-b932-01f6407f3bed")
-		(property "Reference" "TP2"
-			(at 68.58 106.1719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 68.58 108.7119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd86a5f7-eff5-4af4-a5f4-0f9e905d3dae")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 473.71 193.04 0)
 		(unit 1)
@@ -27155,6 +26753,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 138.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee3497cb-6fc2-4c02-b5b7-a2782397d0e9")
+		(property "Reference" "H1"
+			(at 33.02 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 33.02 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 365.76 31.75 0)
 		(unit 1)
@@ -27315,73 +26977,6 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 222.25 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f48237db-596a-4c03-8425-e6cf621d5b21")
-		(property "Reference" "TP8"
-			(at 227.33 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 227.33 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 222.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 222.25 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "049db0f2-a194-470d-b33f-64f54563e017")
-		)
-		(instances
-			(project "BrushlessGimbalController_Hardware"
-				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -27914,7 +27509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470 uF"
+		(property "Value" "470 nF"
 			(at 255.778 242.824 0)
 			(effects
 				(font
@@ -27923,7 +27518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.3452 247.65 0)
 			(effects
 				(font
@@ -27932,7 +27527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/25ZLH470MEFC10X12-5/3563614"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A474KA8NNNC/3887553"
 			(at 246.38 243.84 0)
 			(effects
 				(font
