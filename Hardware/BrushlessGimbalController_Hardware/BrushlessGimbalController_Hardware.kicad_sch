@@ -1007,7 +1007,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+			(property "Footprint" "DRV8329:REE0036A-IPC_A"
 				(at -21.59 -38.1 0)
 				(effects
 					(font
@@ -1589,6 +1589,24 @@
 					)
 				)
 				(pin power_out line
+					(at 24.13 17.78 180)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at -24.13 7.62 0)
 					(length 2.54)
 					(name "GND"
@@ -1720,7 +1738,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+			(property "Footprint" "DRV8329:REE0036A-IPC_A"
 				(at -21.59 -38.1 0)
 				(effects
 					(font
@@ -2294,6 +2312,24 @@
 						)
 					)
 					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.13 16.51 180)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3501,7 +3537,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "DRV8329:VQFN40_RGF_TEX"
+			(property "Footprint" "DRV8329:REE0036A-IPC_A"
 				(at -21.59 -38.1 0)
 				(effects
 					(font
@@ -4075,6 +4111,24 @@
 						)
 					)
 					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.13 17.78 180)
+					(length 2.54)
+					(name "ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7482,6 +7536,16 @@
 	)
 	(wire
 		(pts
+			(xy 501.65 214.63) (xy 513.08 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfa3878-6909-4405-aedd-dd9491c7c11f")
+	)
+	(wire
+		(pts
 			(xy 367.03 118.11) (xy 367.03 116.84)
 		)
 		(stroke
@@ -7979,6 +8043,16 @@
 			(type default)
 		)
 		(uuid "396cde14-c891-4421-9506-dcf3985a797d")
+	)
+	(wire
+		(pts
+			(xy 501.65 214.63) (xy 501.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397a8a5a-7121-4e55-ae5a-8afd97e19b2c")
 	)
 	(wire
 		(pts
@@ -9212,6 +9286,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 220.98) (xy 127 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb1faa3-2c33-4869-af23-78525f116dd6")
+	)
+	(wire
+		(pts
 			(xy 516.89 35.56) (xy 520.7 35.56)
 		)
 		(stroke
@@ -10072,6 +10156,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 220.98) (xy 321.31 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b224e7f6-a7e7-4843-b2b3-925dfd781f23")
+	)
+	(wire
+		(pts
 			(xy 231.14 250.19) (xy 231.14 256.54)
 		)
 		(stroke
@@ -10089,6 +10183,16 @@
 			(type default)
 		)
 		(uuid "b302e327-2d11-42b3-9e79-a82d5a78a852")
+	)
+	(wire
+		(pts
+			(xy 127 220.98) (xy 127 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b310ee44-a9d1-4e9c-baa4-4389f8156c45")
 	)
 	(wire
 		(pts
@@ -11079,6 +11183,16 @@
 			(type default)
 		)
 		(uuid "f9fbbe1c-5233-4b37-9b8e-0e7ea29ed065")
+	)
+	(wire
+		(pts
+			(xy 312.42 220.98) (xy 312.42 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa70fe70-926f-472d-8032-dbeb897d9001")
 	)
 	(wire
 		(pts
@@ -14176,6 +14290,9 @@
 		(pin "8"
 			(uuid "0f4b3050-09d9-4cee-81e4-73b75d21c9c8")
 		)
+		(pin "37"
+			(uuid "b4117c51-c7e9-4722-bb86-3a0cd6dce2aa")
+		)
 		(instances
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
@@ -15709,6 +15826,9 @@
 		)
 		(pin "8"
 			(uuid "d1f496ba-76b8-406b-baad-b95416837b9e")
+		)
+		(pin "37"
+			(uuid "1af3ebcd-0564-422a-a543-51e7521b981a")
 		)
 		(instances
 			(project "BrushlessGimbalController_Hardware"
@@ -17336,6 +17456,72 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 321.31 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb6e944-4ef4-4d42-91a6-a55838f615d6")
+		(property "Reference" "#PWR071"
+			(at 321.31 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 321.31 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd15316-638c-49a3-ad82-364b7682afaa")
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -19773,6 +19959,72 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 513.08 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67375023-413b-45fb-8e49-ec754503725c")
+		(property "Reference" "#PWR072"
+			(at 513.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 513.08 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 513.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 513.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd8c932f-b17b-4a0b-8678-b64ac8d7e880")
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -25940,6 +26192,9 @@
 		(pin "8"
 			(uuid "408509e7-0c08-4ad0-bd73-1c40214de8db")
 		)
+		(pin "37"
+			(uuid "74f4e470-60bd-42f1-a0cd-d195cd3d99a7")
+		)
 		(instances
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
@@ -26244,6 +26499,72 @@
 			(project "BrushlessGimbalController_Hardware"
 				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 220.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddf84c13-4416-4e50-93f8-4fecad9f4bfe")
+		(property "Reference" "#PWR070"
+			(at 142.24 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feb0e963-d4fa-45e8-9787-d1adc7605d82")
+		)
+		(instances
+			(project ""
+				(path "/86d19b08-3b03-481a-886b-9d63ccd258bc"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
